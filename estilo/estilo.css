@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    min-width: 360px;
+}
+
+header{
+    background-color: rgb(131, 161, 102);
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(250, 247, 247);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 2rem;
+}
+
+
+button{
+    min-width: 105px;
+    font-size: 1.5em;
+    background-color: rgb(210,170,80);
+    border-radius: 10px;
+    margin-bottom: 4px;
+    box-shadow: 2px 2px 4px black;
+    font-weight:bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button:active {
+    box-shadow: none;
+    border: 2px inset gray;
+    font-weight:normal;
+}
+
+div{
+    background-color: rgb(131, 161, 102);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+    border: 1px solid rgb(255, 254, 254);
+    margin-bottom: 4px;
+    box-shadow: 2px 2px 4px rgb(248, 203, 2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.calculadora{
+    max-width: 500px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.signos{
+    background-color: rgb(37, 104, 37);
+}
+
+.igual{
+    grid-column: span 3;
+    background-color: rgb(128, 31, 31);
+}
+.suma{
+    grid-column: span 2;
+}
+
+.pantalla{
+    padding: auto;
+    max-width: 500px ;
+    background-color: bisque;
+    height: 30px;
+    font-size: 2em;
+    font-weight:bold;
+    margin-bottom: 0.5rem;
+}
+
+
